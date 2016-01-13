@@ -1,0 +1,4 @@
+<launch>
+	<node name="wean_map" pkg="map_server" type="map_server" args="/home/wseto/particlefilter2/map/map.yaml" />
+	<node name="rviz" pkg="rviz" type="rviz" args="-d /home/wseto/particlefilter2/particlefilter.rviz"/>
+</launch>
